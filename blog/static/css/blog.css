@@ -1,7 +1,7 @@
 .page-header {
     background-color: #FF69B4;
-    margin-top: 0;
-    margin-bottom: 40px;
+    margin-top: 30;
+    margin-bottom: 50px;
     padding: 20px 20px 20px 40px;
 }
 
@@ -10,7 +10,7 @@
 .page-header h1 a:visited,
 .page-header h1 a:active {
     color: #ffddf4;
-    font-size: 36pt;
+    font-size: 50pt;
     text-decoration: none;
 }
 
@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Teko';
 }
 
 .date {
@@ -31,7 +31,7 @@ h4 {
 
 .post-form textarea,
 .post-form input {
-    width: 100%;
+    width: 80%;
 }
 
 .top-menu,
@@ -39,7 +39,7 @@ h4 {
 .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 20pt;
     margin-right: 20px;
 }
 
@@ -67,4 +67,8 @@ h4 {
 .btn-default:hover {
     color: #FFFFFF;
     background-color: #C25100;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }

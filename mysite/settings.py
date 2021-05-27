@@ -12,9 +12,11 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 
+# jasu: When the login page is accessed directly, it will redirect a successful login to the top-level index
+LOGIN_REDIRECT_URL = '/'
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
@@ -26,7 +28,6 @@ SECRET_KEY = 'me09*%1!#ajhzo1acn9n^bea+)*_25=x&-r1n3=*n^7i^#$ko9'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
-
 
 # Application definition
 
@@ -99,7 +100,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
